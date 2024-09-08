@@ -1,4 +1,4 @@
-// File: D:\docq-frontend\src\app\(root)\page.jsx
+// File: C:\Users\Manoj Gupta\OneDrive - Mahavir Education Trust\Desktop\Doc-Q-Nextjs\src\app\(root)\page.jsx
 import * as entry from '../../../../src/app/(root)/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
