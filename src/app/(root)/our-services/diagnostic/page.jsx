@@ -4,9 +4,9 @@ import Head from "@/components/Head";
 import React from "react";
 import "tailwindcss/tailwind.css";
 import Image from "next/image";
-import { useRouter } from 'next/navigation';
+import { useRouter } from "next/navigation";
 import data from "../test/category.json";
-import TestTubeImage from "@/../public/icons/test_tube.png"
+import TestTubeImage from "@/../public/icons/test_tube.png";
 import ComputerImage from "@/../public//icons/computer.png";
 import HelpingHandImage from "@/../public/icons/helping_hand.png";
 import Search from "@/components/Search";
@@ -114,7 +114,6 @@ const Diagnostic = () => {
             );
           })}
       </div>
-
     </>
   );
 };

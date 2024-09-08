@@ -85,69 +85,68 @@ const Imaging = () => {
               <span>Experience</span>
             </h2>
             {Centers.map((item, index) => (
-  <div
-    key={index}
-    className="mt-8"
-    onMouseEnter={() => handleCenterMouseEnter(index)}
-    onMouseLeave={handleCenterMouseLeave}
-  >
-    <div
-      className={`p-4 rounded-full mx-5 transition-colors duration-300 ease-in-out flex items-center justify-between ${
-        hoveredCenter === index ? "bg-[#017BFC] text-white" : "bg-[#DAEDFF] text-black"
-      }`}
-      style={{ height: '60px' }}  // Ensuring consistent height for all rows
-    >
-      {/* Center Name & Logo */}
-      <div className="flex items-center space-x-4 w-1/3">
-        <Image
-          src={item.logo}
-          alt={item.centerName}
-          width={40}
-          height={40}
-          className="rounded-full"
-        />
-        <span
-          className={`text-lg font-medium ${
-            hoveredCenter === index ? "text-white" : "text-black"
-          }`}
-        >
-          {item.centerName}
-        </span>
-      </div>
+              <div
+                key={index}
+                className="mt-8"
+                onMouseEnter={() => handleCenterMouseEnter(index)}
+                onMouseLeave={handleCenterMouseLeave}
+              >
+                <div
+                  className={`p-4 rounded-full mb-4 mx-5 transition-colors duration-300 ease-in-out flex items-center justify-between ${
+                    hoveredCenter === index
+                      ? "bg-[#017BFC] text-white"
+                      : "bg-[#DAEDFF] text-black"
+                  }`}
+                  style={{ height: "60px" }}
+                >
+                  <div className="flex items-center space-x-4 w-1/3">
+                    <Image
+                      src={item.logo}
+                      alt={item.centerName}
+                      width={40}
+                      height={40}
+                      className="rounded-full"
+                    />
+                    <span
+                      className={`text-lg font-medium ${
+                        hoveredCenter === index ? "text-white" : "text-black"
+                      }`}
+                    >
+                      {item.centerName}
+                    </span>
+                  </div>
 
-      {/* Ratings */}
-      <div className="flex items-center space-x-1 w-1/3 justify-center">
-        {Array.from({ length: 5 }, (_, i) => (
-          <svg
-            key={i}
-            xmlns="http://www.w3.org/2000/svg"
-            className={`h-6 w-6 ${
-              i < item.ratings
-                ? hoveredCenter === index
-                  ? "text-white"
-                  : "text-[#FFC224]"
-                : "text-[#8B8B8B]"
-            }`}
-            fill="currentColor"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-          </svg>
-        ))}
-      </div>
+                  <div className="flex items-center space-x-1 w-1/3 justify-center">
+                    {Array.from({ length: 5 }, (_, i) => (
+                      <svg
+                        key={i}
+                        xmlns="http://www.w3.org/2000/svg"
+                        className={`h-6 w-6 ${
+                          i < item.ratings
+                            ? hoveredCenter === index
+                              ? "text-white"
+                              : "text-[#FFC224]"
+                            : "text-[#8B8B8B]"
+                        }`}
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path d="M12 17.27L18.18 21 16.54 13.97 22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                      </svg>
+                    ))}
+                  </div>
 
-      {/* Experience */}
-      <div className="w-1/3 text-right">
-        <span className="font-semibold">Experience:</span> {item.experience}
-      </div>
-    </div>
-  </div>
-))}
+                  <div className="w-1/3 text-right">
+                    <span className="font-semibold">Experience:</span>{" "}
+                    {item.experience}
+                  </div>
+                </div>
+              </div>
+            ))}
           </>
         )}
       </div>
-
     </>
   );
 };

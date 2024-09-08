@@ -94,14 +94,13 @@ const CategoryPage = () => {
                 onMouseLeave={handleCenterMouseLeave}
               >
                 <div
-                  className={`p-4 rounded-full mx-5 transition-colors duration-300 ease-in-out flex items-center justify-between ${
+                  className={`p-4 rounded-full mb-4 mx-5 transition-colors duration-300 ease-in-out flex items-center justify-between ${
                     hoveredCenter === index
                       ? "bg-[#017BFC] text-white"
                       : "bg-[#DAEDFF] text-black"
                   }`}
-                  style={{ height: "60px" }} // Ensuring consistent height for all rows
+                  style={{ height: "60px" }}
                 >
-                  {/* Center Name & Logo */}
                   <div className="flex items-center space-x-4 w-1/3">
                     <Image
                       src={item.logo}
@@ -119,7 +118,6 @@ const CategoryPage = () => {
                     </span>
                   </div>
 
-                  {/* Ratings */}
                   <div className="flex items-center space-x-1 w-1/3 justify-center">
                     {Array.from({ length: 5 }, (_, i) => (
                       <svg
@@ -141,7 +139,6 @@ const CategoryPage = () => {
                     ))}
                   </div>
 
-                  {/* Experience */}
                   <div className="w-1/3 text-right">
                     <span className="font-semibold">Experience:</span>{" "}
                     {item.experience}
