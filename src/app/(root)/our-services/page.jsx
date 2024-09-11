@@ -92,7 +92,7 @@ const ServiceComponent = () => {
         <p className="text-center text-[16px] lg:text-[18px] mb-8">
           3 Easy steps to your service
         </p>
-        <div className="flex flex-col items-center w-full">
+        <div className="flex flex-col items-center mb-4 w-full">
           <Image
             src={stepsImage}
             alt="How it Works Steps"
@@ -123,18 +123,18 @@ const ServiceComponent = () => {
       </div>
 
       <div className="pr-8 pl-8 bg-[#F2F7FF] w-full">
-        <div className="bg-[#4EA4FF] rounded-[30px] lg:rounded-[60px] p-4 lg:p-8 flex flex-col lg:flex-row justify-around items-center shadow-lg my-16 w-full">
+        <div className="bg-[#4EA4FF] rounded-[30px] lg:rounded-[60px] p-4 lg:p-8 flex flex-col lg:flex-row justify-around items-center w-full">
           <div className="flex flex-col max-w-full lg:max-w-[50%]">
             <div className="flex items-center mb-4">
-              <div className="bg-gradient-to-r from-[#00D7CF] to-[#53A7FF] text-white px-4 py-2 rounded-full">
+              <div className="bg-gradient-to-r from-[#00D7CF] to-[#017BFC] text-white px-4 py-2 rounded-full">
                 Why Choose Us?
               </div>
             </div>
-            <h1 className="text-[24px] lg:text-[32px] font-bold mb-2">
-              We're the Right Choice <br className="hidden lg:block" /> for Your
+            <h1 className="font-nunito w-[719px] text-[24px] lg:text-[40px] font-bold mb-2">
+              We're the Right Choice <br className="hidden lg:block " /> for Your
               Healthcare
             </h1>
-            <p className="text-base lg:text-lg text-black mb-4">
+            <p className="font-nunito text-base lg:text-small font-semibold text-black mb-4">
               We’re here to make your healthcare experience easy, <br />
               comfortable, and truly personalized.
             </p>
@@ -143,8 +143,8 @@ const ServiceComponent = () => {
                 <span className="text-[24px] lg:text-[32px] font-bold mb-2">
                   ●
                 </span>
-                <h1 className="text-[20px] lg:text-[28px] font-bold mb-2">
-                  Whatever you need, we’ve got it covered, from check-ups to
+                <h1 className="font-nunito text-[20px] lg:text-[25px] font-semibold mb-2">
+                  Whatever you need, we’ve got it covered, <br className="hidden lg:block" /> from check-ups to
                   specialized treatments.
                 </h1>
               </li>
@@ -152,8 +152,8 @@ const ServiceComponent = () => {
                 <span className="text-[24px] lg:text-[32px] font-bold mb-2">
                   ●
                 </span>
-                <h1 className="text-[20px] lg:text-[28px] font-bold mb-2">
-                  You’re in good hands with our skilled and caring professionals
+                <h1 className="font-nunito text-[20px] lg:text-[25px] font-semibold mb-2">
+                  You’re in good hands with our skilled and caring <br className="hidden lg:block" /> professionals
                   who are all about your well-being.
                 </h1>
               </li>
@@ -161,8 +161,8 @@ const ServiceComponent = () => {
                 <span className="text-[24px] lg:text-[32px] font-bold mb-2">
                   ●
                 </span>
-                <h1 className="text-[20px] lg:text-[28px] font-bold mb-2">
-                  We listen, we care, and we tailor everything to what works
+                <h1 className="font-nunito text-[20px] lg:text-[25px] font-semibold mb-2">
+                  We listen, we care, and we tailor <br className="hidden lg:block" /> everything to what works
                   best for you.
                 </h1>
               </li>
@@ -172,15 +172,15 @@ const ServiceComponent = () => {
             <Image
               src={Group7}
               alt="Doctor pointing"
-              width={400}
-              height={400}
+              width={500}
+              height={500}
               className="rounded-lg max-w-full"
             />
             <Image
               src={Rectangle134}
               alt="Rectangle 134"
-              width={400}
-              height={400}
+              width={500}
+              height={500}
               className="absolute top-0 right-3 max-w-full"
             />
             <Image

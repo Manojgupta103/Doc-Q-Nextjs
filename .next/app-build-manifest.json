@@ -1,9 +1,10 @@
 {
   "pages": {
-    "/(root)/page": [
+    "/(root)/our-services/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(root)/page.js"
+      "static/css/app/(root)/our-services/page.css",
+      "static/chunks/app/(root)/our-services/page.js"
     ],
     "/(root)/layout": [
       "static/chunks/webpack.js",
@@ -11,35 +12,10 @@
       "static/css/app/(root)/layout.css",
       "static/chunks/app/(root)/layout.js"
     ],
-    "/(root)/our-services/page": [
+    "/(root)/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/(root)/our-services/page.css",
-      "static/chunks/app/(root)/our-services/page.js"
-    ],
-    "/(root)/our-services/diagnostic/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(root)/our-services/diagnostic/page.css",
-      "static/chunks/app/(root)/our-services/diagnostic/page.js"
-    ],
-    "/(root)/our-services/diagnostic/Imaging/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(root)/our-services/diagnostic/Imaging/page.css",
-      "static/chunks/app/(root)/our-services/diagnostic/Imaging/page.js"
-    ],
-    "/(root)/our-services/diagnostic/Cardiac/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(root)/our-services/diagnostic/Cardiac/page.css",
-      "static/chunks/app/(root)/our-services/diagnostic/Cardiac/page.js"
-    ],
-    "/(root)/our-services/diagnostic/Allergy/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(root)/our-services/diagnostic/Allergy/page.css",
-      "static/chunks/app/(root)/our-services/diagnostic/Allergy/page.js"
+      "static/chunks/app/(root)/page.js"
     ]
   }
 }

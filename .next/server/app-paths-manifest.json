@@ -1,7 +1,3 @@
 {
-  "/(root)/our-services/page": "app/(root)/our-services/page.js",
-  "/(root)/our-services/diagnostic/page": "app/(root)/our-services/diagnostic/page.js",
-  "/(root)/our-services/diagnostic/Imaging/page": "app/(root)/our-services/diagnostic/Imaging/page.js",
-  "/(root)/our-services/diagnostic/Allergy/page": "app/(root)/our-services/diagnostic/Allergy/page.js",
-  "/(root)/our-services/diagnostic/Cardiac/page": "app/(root)/our-services/diagnostic/Cardiac/page.js"
+  "/(root)/our-services/page": "app/(root)/our-services/page.js"
 }
