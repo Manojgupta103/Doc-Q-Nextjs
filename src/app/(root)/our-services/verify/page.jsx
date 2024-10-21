@@ -29,8 +29,8 @@ export default function CreateAccount() {
       {/* Background-Layout */}
       <div className='z-0 hidden lg:block'>
     
-        <img className='fixed h-[200px] top-[500px] left-[390px]' src='/icons/maki_doctor.png'></img>
-        <img className='fixed h-[160px] top-[500px] left-[280px]'  src='/icons/Ellipse 69.png'></img>
+        <img className='fixed h-[200px] top-[500px] left-[390px]' src='./icons/maki_doctor.png'></img>
+        <img className='fixed h-[160px] top-[500px] left-[280px]'  src='./icons/Ellipse 69.png'></img>
         <img className='fixed h-[90px] left-[22px] top-[390px]' src='./icons/Ellipse 70.png'></img>
         <img className='h-[130px] fixed left-[320px] top-[130px]' src='./icons/Ellipse 71.png'></img>
         <img className='fixed left-[480px] top-[20px]' src='./icons/Ellipse 72.png'></img>
